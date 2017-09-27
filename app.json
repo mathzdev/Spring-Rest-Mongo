@@ -1,0 +1,8 @@
+{
+  "name": "Spring-Rest-Mongo",
+  "description": "REST API em Spring, Java e Mongo",
+  "website": "https://spring-rest-mongo.herokuapp.com/",
+  "repository": "https://github.com/ma-theus/Spring-Rest-Mongo",
+  "image": "heroku/java",
+  "addons": []
+}
