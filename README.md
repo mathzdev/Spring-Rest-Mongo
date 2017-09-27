@@ -1,6 +1,6 @@
 # Spring Rest Mongo
 
-REST API com autenticação OAuth2 feito na linguagem de programação Java, com o framework Spring. Utilizando o Spring Boot, Maven e para salvar os dados MongoDB.
+REST API com autenticação OAuth2 feito na linguagem de programação Java, com o framework Spring. Utilizando o Spring Boot, Maven e MongoDB.
   - https://spring.io
   - https://projects.spring.io/spring-boot/
   - https://spring.io/guides/tutorials/spring-boot-oauth2/
