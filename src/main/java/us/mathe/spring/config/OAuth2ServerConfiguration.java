@@ -31,7 +31,6 @@ import org.springframework.security.oauth2.provider.token.store.InMemoryTokenSto
  */
 @Configuration
 public class OAuth2ServerConfiguration {
-
     private static final String RESOURCE_ID = "restservice";
 
     @Configuration
@@ -62,8 +61,7 @@ public class OAuth2ServerConfiguration {
 
     @Configuration
     @EnableAuthorizationServer
-    protected static class AuthorizationServerConfiguration extends
-            AuthorizationServerConfigurerAdapter {
+    protected static class AuthorizationServerConfiguration extends AuthorizationServerConfigurerAdapter {
 
         private TokenStore tokenStore = new InMemoryTokenStore();
 
@@ -75,8 +73,7 @@ public class OAuth2ServerConfiguration {
         private MeuUserDetailsService userDetailsService;
 
         @Override
-        public void configure(AuthorizationServerEndpointsConfigurer endpoints)
-                throws Exception {
+        public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
             endpoints
                     .tokenStore(this.tokenStore)
                     .authenticationManager(this.authenticationManager)
@@ -105,7 +102,5 @@ public class OAuth2ServerConfiguration {
             tokenServices.setTokenStore(this.tokenStore);
             return tokenServices;
         }
-
     }
-
 }

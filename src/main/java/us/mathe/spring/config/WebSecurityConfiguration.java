@@ -23,7 +23,6 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
-
     @Autowired
     private MeuUserDetailsService userDetailsService;
 
@@ -43,5 +42,4 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
         web.ignoring().antMatchers(HttpMethod.OPTIONS, "/**")
         .antMatchers(HttpMethod.GET, "/public/**");
     }
-
 }

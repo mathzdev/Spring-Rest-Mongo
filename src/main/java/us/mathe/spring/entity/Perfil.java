@@ -27,6 +27,7 @@ public class Perfil implements GrantedAuthority {
         this.nome = nome;
     }
 
+    
     public String getId() {
         return id;
     }

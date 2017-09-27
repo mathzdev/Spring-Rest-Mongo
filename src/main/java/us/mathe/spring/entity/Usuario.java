@@ -46,8 +46,6 @@ public class Usuario {
         this.senha = senha;
         this.perfis = perfis;
     }
-
-    
     
     
     public String getNome() {
