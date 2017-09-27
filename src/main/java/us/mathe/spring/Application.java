@@ -17,9 +17,9 @@ import org.springframework.web.filter.CorsFilter;
  * @author Matheus Lucio <matheusluciox@gmail.com>
  */
 @SpringBootApplication
-public class Aplicacao {
+public class Application {
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(Aplicacao.class, args);
+        SpringApplication.run(Application.class, args);
     }
     
     @Bean
