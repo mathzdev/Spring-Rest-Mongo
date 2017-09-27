@@ -13,4 +13,4 @@ REST feito para manter usuários e perfis, e uma autenticação simples com as t
 
 ~ by matheusluciox@gmail.com
 
-Agradecimentos à Nataniel Paiva # (Instrutor Java)
+Agradecimentos à Nataniel Paiva https://natanielpaiva.github.io/ # (Instrutor Java)
