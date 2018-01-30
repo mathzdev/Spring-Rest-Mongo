@@ -18,6 +18,8 @@
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <git.commit.link>${project.scm.url}/commit/${buildNumber}</git.commit.link>
     </properties>
     
     <dependencies>
@@ -42,6 +44,13 @@
             <artifactId>spring-security-acl</artifactId>
         </dependency>
     </dependencies>
+
+    <scm>
+        <url>https://github.com/ma-theus/Spring-Rest-Mongo</url>
+        <connection>scm:git:git://github.com/ma-theus/Spring-Rest-Mongo.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/ma-theus/Spring-Rest-Mongo.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <build>
         <finalName>app</finalName>
